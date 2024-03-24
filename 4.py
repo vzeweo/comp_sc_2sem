@@ -1,0 +1,11 @@
+x=int(input("Введите x:"))
+y=int(input("Введите y:"))
+z=int(input("Введите z:"))
+A=int(input("Введите A:"))
+if abs(x)<A:
+    x=x**2
+if abs(y) < A:
+    y=y**2
+if abs(z) < A:
+    z=z**2
+print (x,y,z)
