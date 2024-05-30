@@ -29,6 +29,6 @@ def extract_column(matrix, column_index):
 
 filename = 'matrica.txt'
 matrix = read_matrix_from_file(filename)
-max_column_index = find_max_product_column(matrix)
-max_column = extract_column(matrix, max_column_index)
-print(max_column)
+min_column_index = find_min_product_column(matrix)
+min_column = extract_column(matrix, min_column_index)
+print(min_column)
